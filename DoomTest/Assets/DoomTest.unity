@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657934, g: 0.49641305, b: 0.57481873, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465791, g: 0.496413, b: 0.5748184, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1093,6 +1093,7 @@ GameObject:
   - component: {fileID: 1137029477}
   - component: {fileID: 1137029476}
   - component: {fileID: 1137029480}
+  - component: {fileID: 1137029481}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1166,7 +1167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137029475}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 30, y: 5, z: 10}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1184,6 +1185,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30da7575ce4313e47ada6956be919c07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1137029481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137029475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44018d864a3108c48b58a2392b77e25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.3
+  obstacleRange: 5
 --- !u!1 &1235402194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1515,7 +1530,6 @@ GameObject:
   - component: {fileID: 1700031359}
   - component: {fileID: 1700031364}
   - component: {fileID: 1700031363}
-  - component: {fileID: 1700031362}
   - component: {fileID: 1700031361}
   - component: {fileID: 1700031360}
   m_Layer: 0
@@ -1568,20 +1582,6 @@ MonoBehaviour:
   sensitivityVert: 9
   minimumVert: -45
   maximumVert: 45
---- !u!114 &1700031362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700031358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b66c6154b0ad1ca4f8668122c328b830, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 6
-  gravity: -9.8
 --- !u!81 &1700031363
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1708,7 +1708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940219147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 11.53, z: -23.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

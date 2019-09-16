@@ -33,8 +33,7 @@ public class RayShooter : MonoBehaviour {
                 } else {
                     StartCoroutine(SphereIndicator(hit.point));
                 }
-
-
+                
             }
         }
     }
@@ -48,7 +47,7 @@ public class RayShooter : MonoBehaviour {
         Destroy(sphere);
     }
 
-    void OnGui() {
+    void OnGUI() {
         int size = 12;
         float posX = (_camera.pixelWidth / 2) - (size / 4);
         float posY = (_camera.pixelHeight / 2) - (size / 2);
