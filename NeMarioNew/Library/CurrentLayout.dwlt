@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 498}
   m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 10
+  controlID: 47
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 23
+  controlID: 28
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 24
+  controlID: 29
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,20 +389,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Mahm_iz81\Documents\UnityApp\NeMarioNew
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 528}
-    m_SelectedIDs: b82f0000
-    m_LastClickedID: 12216
-    m_ExpandedIDs: 00000000002e00003c38000074390000583a0000643a0000843a0000ba3a00001e3b0000a03b0000483c00004c3c00007e3c000000ca9a3b
+    scrollPos: {x: 0, y: 508}
+    m_SelectedIDs: ea0e0000
+    m_LastClickedID: 3818
+    m_ExpandedIDs: 0000000072090000220d00007a110000c8140000ea14000030150000ca1500007e170000fc180000d01a0000d81a00006c1b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -430,7 +430,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000072090000220d00007a110000c8140000ea14000030150000ca1500007e170000fc180000d01a0000d81a00006c1b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -549,23 +549,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e1cffff
-      m_LastClickedID: -58338
-      m_ExpandedIDs: d81bffff101cffff1e1cffff441cffffd01cffffc232ffff2036ffff2e36ffff6c36ffff5238ffff7e38ffff2051ffffde53ffff0054ffff4e56ffff165bffffb463ffffba63ffffde63ffff1664ffff2ea4ffff6ea4ffffe4a6fffffea6ffff06a7ffff3aa7ffff86a7ffff9aa7ffff24a8ffff3aa8ffff7aa9ffff90aaffff06f1ffff1e530000d8530000ec570000d2580000e85c0000f45c0000025d0000185d00001e5d00002e5d0000cc6d000062780000
+      m_SelectedIDs: aefbffff
+      m_LastClickedID: -1106
+      m_ExpandedIDs: 98fbffffaefbffffd4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Character
-        m_OriginalName: Character
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -58338
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -606,9 +606,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3313936, y: 1.3451687, z: 0.25535244}
+    m_Target: {x: 0.43204558, y: 1.5457456, z: 0.24420533}
     speed: 2
-    m_Value: {x: 1.3313936, y: 1.3451687, z: 0.25535244}
+    m_Value: {x: 0.43204558, y: 1.5457456, z: 0.24420533}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -640,15 +640,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 12.077634
+    m_Target: 13.189077
     speed: 2
-    m_Value: 12.077634
+    m_Value: 13.189077
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08355345, y: -0.6658848, z: 0.07543861, w: -0.7375129}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
