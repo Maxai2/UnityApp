@@ -118,5 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44018d864a3108c48b58a2392b77e25e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.3
-  obstacleRange: 5
+  speed: 5
+  obstacleRange: 10
+  fireballPrefab: {fileID: 4466574344831219773, guid: 7a05281cc97dd1d4db154f0dce916155,
+    type: 3}
